@@ -457,7 +457,7 @@ with bot:
                 u = await event.client.get_entity(event.chat_id)
                 await event.reply(
                     f"Hallo [{get_display_name(u)}](tg://user?id={u.id}) Selamat Datang Di\n**Can - Project**\nKalo mau tau lebih lanjut silahkan Join Ke \n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
-             
+
                     buttons=[
                         [
                             Button.url("📢 Channel Support",
