@@ -274,7 +274,7 @@ async def amireallyalive(alive):
         f"╟⟩⟩ 👾 • `ʙᴏᴛ      :`v.{BOT_VER}                ㅤㅤㅤ ║\n"
         f"╟⟩⟩ 📂 • `ᴍᴏᴅᴜʟᴇ   :`{len(modules)} ㅤㅤㅤㅤㅤㅤㅤ   ║\n"
         f"╚══════════╬════╬══════════╝ \n"
-        f"🔰 : [𝗥𝗘𝗣𝗢-𝙂𝙚𝙚𝙯](https://github.com/vckyou/Geez-UserBot)\n👥 : [ＧΞ ΞＺ-𝗧𝗘𝗔𝗠](t.me/GeezSupportGroup)\n👤 : [𝗢𝗪𝗡𝗘𝗥](t.me/Vckyouuu)\n"
+        f"🔰 : [𝗥𝗘𝗣𝗢-𝙂𝙚𝙚𝙯](https://github.com/maspion27/CAN-UBOT)\n👥 : [ＧΞ ΞＺ-𝗧𝗘𝗔𝗠](t.me/caritemangobrol)\n👤 : [𝗢𝗪𝗡𝗘𝗥](t.me/inicannn)\n"
     )
     if ALIVE_LOGO:
         try:
@@ -321,8 +321,8 @@ async def redis(alive):
         f" ❍ `Bot Ver  :` {BOT_VER} \n"
         f" ❍ `Modules  :` {len(modules)} Modules \n"
         f"╭═───────╼⌘╾───────═ \n"
-        f"┃[𝗥𝗲𝗽𝗼](https://github.com/Geez-UserBot)  |  [𝗦𝘂𝗽𝗽𝗼𝗿𝘁](t.me/GeezSupportGroup)  |  "
-        f"[𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺](https://Instagram.com/vckyouuu)\n"
+        f"┃[𝗥𝗲𝗽𝗼](https://github.com/CAN-UBOT)  |  [𝗦𝘂𝗽𝗽𝗼𝗿𝘁](t.me/caritemangobrol)  |  "
+        f"[𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺](https://Instagram.com/candrakurniawannn)\n"
         f"╰═──────╼═⌘═╾───────═")
     if ALIVE_LOGO:
         try:
