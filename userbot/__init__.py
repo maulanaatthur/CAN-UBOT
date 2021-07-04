@@ -505,7 +505,7 @@ with bot:
             else:
                 result = builder.article(
                     " 🐣 CAN-UBOT 🐣 ",
-                    text="""**🐣 CAN-UBOT 🐣\n\n Anda Bisa Membuat Geez Userbot Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
+                    text="""**🐣 CAN-UBOT 🐣\n\n Anda Bisa Membuat CAN-UBOT Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
