@@ -43,9 +43,9 @@ async def _(event):
         "telethon.network.mtprotosender -\nINFO - Connecting to 91.108.56.146:443/TcpFull...",
         "telethon.network.mtprotosender -\nINFO - Connection to 91.108.56.146:443/TcpFull complete!",
         "telethon.network.mtprotosender -\nINFO - Received response without parent request",
-        "INFO - Geez-Project: Logged in as 557667062",
-        "INFO - Geez-Project: Successfully...",
-        "919852+00:00 app[worker.1]: 919 - CAN-UBOT -",
+        "INFO - 🐣 CAN-UBOT 🐣: Logged in as 557667062",
+        "INFO - 🐣 CAN-UBOT 🐣: Successfully...",
+        "919852+00:00 app[worker.1]: 919 - 🐣 CAN-UBOT 🐣 -",
         "INFO - 🐣 CAN-UBOT 🐣 ⚙️ V5.0 [TELAH DIAKTIFKAN!]",
         "**Build Succeeded**"
 
