@@ -199,9 +199,6 @@ ALIVE_USERNAME = os.environ.get("ALIVE_USERNAME", None)
 # Sticker Custom Pack Name
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
-# Custom Emoji Alive
-ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "🐣")
-
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
     "ALIVE_LOGO") or "https://telegra.ph/file/cc9b45e639efe047ce719.png"
