@@ -297,9 +297,9 @@ async def amireallyalive(alive):
 
 
 @register(outgoing=True, pattern=r"^\.(?:alive|on)\s?(.)?")
-async def redis(alive):
+async def amireallyalive(alive):
     await bot.get_me()
-    await get_readable_time((time.time() - StartTime))
+    uptime = await get_readable_time((time.time() - StartTime))
     output = (
         f"**[CAN-UBOT](https://github.com/maspion27/CAN-UBOT) is Up and Running.**\n\n"
         f"**{ALIVE_TEKS_CUSTOM}**\n\n"
@@ -309,7 +309,8 @@ async def redis(alive):
         f"{ALIVE_EMOJI} **Python Version :** `{python_version()}` \n"
         f"{ALIVE_EMOJI} **Telethon Version :** `{version.__version__}` \n"
         f"{ALIVE_EMOJI} **Bot Uptime :** `{uptime}` \n\n"
-        "    **[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/caritemangobrol)** | **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/dreamingmoon)** | **[𝗢𝘄𝗻𝗲𝗿](t.me/inicannn)**")
+        "    **[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/caritemangobrol)** | **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/dreamingmoon)** | **[𝗢𝘄𝗻𝗲𝗿](t.me/inicannn)**"
+    )
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
