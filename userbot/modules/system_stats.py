@@ -164,7 +164,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-** 🐣 CAN-UBOT 🐣  Versi:** \n "
+            "**⚜-** 🐣 𝗖𝗔𝗡-𝗨𝗕𝗢𝗧 🐣  Versi:** \n "
             f"heads/Geez-Userbot-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
@@ -265,7 +265,7 @@ async def amireallyalive(alive):
     await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**ㅤㅤㅤㅤ🐣 CAN-UBOT     **\n"
+        f"**ㅤㅤㅤㅤ🐣 𝗖𝗔𝗡-𝗨𝗕𝗢𝗧 🐣    **\n"
         f"╔══════════╬════╬══════════╗ \n"
         f"╟⟩⟩ 🤴 • `ᴏᴡɴᴇʀ    :`[CAN](t.me/inicannn)             ㅤ ║\n"
         f"╟⟩⟩ 🖥️ • `ꜱʏꜱᴛᴇᴍ.   :`Ubuntu 20.10            ║\n"
