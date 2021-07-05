@@ -1,4 +1,4 @@
-<p align="center"> 🚀 𝗪𝗵𝗶𝗰𝗵 𝗶𝘀 𝗧𝗲𝗹𝗲𝘁𝗵𝗼𝗻 𝗕𝗮𝘀𝗲𝗱 🚀</p>
+<p align="center"> 🐣  𝗪𝗵𝗶𝗰𝗵 𝗶𝘀 𝗧𝗲𝗹𝗲𝘁𝗵𝗼𝗻 𝗕𝗮𝘀𝗲𝗱 🐣 </p>
 <p align="left">
   <a href="https://github.com/maspion27/CAN-UBOT/fork"><img src="https://img.shields.io/github/forks/maspion27/CAN-UBOT?label=Fork&style=social"></a>
   </p>
@@ -29,10 +29,10 @@
 <a href="https://t.me/GeezSupportGroup"><img src="https://img.shields.io/badge/Join-Group1%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a>
 <a href="https://t.me/VcgSupportGroup"><img src="https://img.shields.io/badge/Join-Group2%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
-## ⚡CAN-UBOT
+##  🐣 CAN-UBOT 🐣 
 ![CAN-UBOT](https://telegra.ph/file/cc9b45e639efe047ce719.png)
 
-<h3 align="center">Userbot Used for Fun on Telegram, and for Maintianing Your Group.</h3>
+<h3 align="center">USERBOT YANG DI BIKIN SECARA TIDAK SENGAJA DAN TIBA TIBA.</h3>
 <p align="center">&nbsp;</p>
 
 
