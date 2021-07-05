@@ -143,6 +143,7 @@ async def redis(pong):
         f"**✦҈͜͡Onner :** `{ALIVE_NAME}`" % (duration)
     )
 
+
 @register(outgoing=True, pattern="^.speed$")
 async def speedtst(spd):
     """ For .speed command, use SpeedTest to check server speeds. """
