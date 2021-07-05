@@ -54,6 +54,7 @@
 
  🙏 **THANK YOU VERY MUCH FOR**
 
+*   [Daffansaa](https://github.com/Daffansaa/DAPA-UBOT)   🐯DAPA-UBOT🐯
 *   [VCKYOU](https://github.com/Vckyou/Geez-Project)    Geez - Project
 *   [X_iMFiNe](https://github.com/ximfine/xBot-Remix)    XBOT-REMIX
 *   [Koala](https://github.com/ManusiaRakitan/Kampang-Bot)    Kampang - Bot
