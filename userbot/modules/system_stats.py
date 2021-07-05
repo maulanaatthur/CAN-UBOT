@@ -18,7 +18,7 @@ import sys
 import time
 from datetime import datetime
 import psutil
-from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, GEEZ_TEKS_KUSTOM, StartTime, UPSTREAM_REPO_BRANCH, bot
+from userbot import ALIVE_LOGO, ALIVE_NAME, ALIVE_EMOJI, BOT_VER, CMD_HELP, GEEZ_TEKS_KUSTOM, StartTime, UPSTREAM_REPO_BRANCH, bot
 from userbot.events import register
 
 
@@ -300,30 +300,17 @@ async def amireallyalive(alive):
 async def redis(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("__Reconnect.__")
-    await alive.edit("__Reconnect..__")
-    await alive.edit("__Reconnect.__")
-    await alive.edit("__Reconnect..__")
-    await alive.edit("__Connecting...__")
-    await alive.edit("__Connecting..__")
-    await alive.edit("__Connecting...__")
-    await alive.edit("⚡")
-    await asyncio.sleep(2)
     output = (
-        f"╭═──────╼═⌘═╾───────═\n"
-        f"┃ 🐣 CAN-UBOT 🐣 \n"
-        f"╰═─────╼══⌘══╾─────═ \n"
-        f" ❍ `Name     :` {DEFAULTUSER} \n"
-        f" ❍ `Username :` @{user.username} \n"
-        f" ❍ `Telethon :` Ver {version.__version__} \n"
-        f" ❍ `Python   :` Ver {python_version()} \n"
-        f" ❍ `Branch   :` {UPSTREAM_REPO_BRANCH} \n"
-        f" ❍ `Bot Ver  :` {BOT_VER} \n"
-        f" ❍ `Modules  :` {len(modules)} Modules \n"
-        f"╭═───────╼⌘╾───────═ \n"
-        f"┃[𝗥𝗲𝗽𝗼](https://github.com/CAN-UBOT)  |  [𝗦𝘂𝗽𝗽𝗼𝗿𝘁](t.me/caritemangobrol)  |  "
-        f"[𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺](https://Instagram.com/candrakurniawannn)\n"
-        f"╰═──────╼═⌘═╾───────═")
+        f"**[CAN-UBOT](https://github.com/maspion27/CAN-UBOT) is Up and Running.**\n\n"
+        f"**{ALIVE_TEKS_CUSTOM}**\n\n"
+        f"{ALIVE_EMOJI} **Tuanku :** `{DEFAULTUSER}` \n"
+        f"{ALIVE_EMOJI} **Modules :** `{len(modules)} Modules` \n"
+        f"{ALIVE_EMOJI} **Bot Version :** `{BOT_VER}` \n"
+        f"{ALIVE_EMOJI} **Python Version :** `{python_version()}` \n"
+        f"{ALIVE_EMOJI} **Telethon Version :** `{version.__version__}` \n"
+        f"{ALIVE_EMOJI} **Bot Uptime :** `{uptime}` \n\n"
+        "    **[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/caritemangobrol)** | **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/dreamingmoon)** | **[𝗢𝘄𝗻𝗲𝗿](t.me/inicannn)**"
+    )
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
