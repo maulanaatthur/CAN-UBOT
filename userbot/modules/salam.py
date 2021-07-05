@@ -13,6 +13,12 @@ async def typewriter(typew):
     await typew.edit("`Assalamu'alaikum wr. wb.`")
 
 
+@register(outgoing=True, pattern='^.hy(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("𝘩𝘺 𝘮𝘢𝘯𝘪𝘴𝘬𝘶")
+
+
 @register(outgoing=True, pattern='^P(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -33,7 +39,7 @@ async def typewriter(typew):
 
 CMD_HELP.update({
     "salam":
-    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.P` | `P`\
+    "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.P` | `P` | `.hy` \
 \n↳ : Untuk Memberi salam.\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.L` `L`\
 \n↳ : Untuk Menjawab Salam."
