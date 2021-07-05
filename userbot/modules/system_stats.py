@@ -306,9 +306,9 @@ async def amireallyalive(alive):
 
 
 @register(outgoing=True, pattern=r"^\.(?:alive|on)\s?(.)?")
-async def redis(alive):
+async def amireallyalive(alive):
     await bot.get_me()
-    uptime = await get_readable_time((time.time() - StartTime))
+    await get_readable_time((time.time() - StartTime))
     output = (
         f"**[CAN-UBOT](https://github.com/maspion27/CAN-UBOT) Still alive.**\n\n"
         f"**{GEEZ_TEKS_CUSTOM}**\n\n"
@@ -329,8 +329,8 @@ async def redis(alive):
             await msg.delete()
         except BaseException:
             await alive.edit(
-                output + "\n\n *`Logo Yang Disediakan Tidak Valid."
-                "\nPastikan Tautan Yang Anda Gunakan Valid`"
+                output + "\n\n *`The provided logo is invalid."
+                "\nMake sure the link is directed to the logo picture`"
             )
             await asyncio.sleep(100)
             await alive.delete()
