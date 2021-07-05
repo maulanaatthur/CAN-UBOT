@@ -307,18 +307,30 @@ async def amireallyalive(alive):
 
 @register(outgoing=True, pattern=r"^\.(?:alive|on)\s?(.)?")
 async def amireallyalive(alive):
-    await bot.get_me()
+    user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
+    await alive.edit("`Introducing...⭐`")
+    await asyncio.sleep(1)
+    await alive.edit("🐣")
+    await asyncio.sleep(3)
     output = (
-        f"**[CAN-UBOT](https://github.com/maspion27/CAN-UBOT) Still alive.**\n\n"
-        f"**{GEEZ_TEKS_CUSTOM}**\n\n"
-        f" 🐣 **Master :** `{DEFAULTUSER}` \n"
-        f" 🐣 **Modules :** `{len(modules)} Modules` \n"
-        f" 🐣 **Bot Version :** `{BOT_VER}` \n"
-        f" 🐣 **Python Version :** `{python_version()}` \n"
-        f" 🐣 **Telethon Version :** `{version.__version__}` \n"
-        f" 🐣 **Bot Uptime :** `{uptime}` \n\n"
-        "    **[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/caritemangobrol)** | **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/dreamingmoon)** | **[𝗢𝘄𝗻𝗲𝗿](t.me/inicannn)**"
+        f"**✠╼━━━━━━❖━━━━━━━✠ ** \n"
+        f"**     🐣𝗗𝗔𝗣𝗔 - 𝗨𝗕𝗢𝗧🐣** \n"
+        f"**✠╼━━━━━━❖━━━━━━━✠** \n"
+        f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
+        f"┣|• `🤴 Majikan  :`{DEFAULTUSER} \n"
+        f"┣|• `💳 Username :`@{user.username} \n"
+        f"┣|• `👺 Telethon :`Ver {version.__version__} \n"
+        f"┣|• `🐉 Python   :`Ver {python_version()} \n"
+        f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
+        f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
+        f"┣|• `Branch      :`CAN-UBOT \n"
+        f"┣|• `Bot Ver     :`7.0 \n"
+        f"┣|• `Modules     :`{len(modules)} Modules \n"
+        f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
+        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
+        f"[[𝗢𝘄𝗻𝗲𝗿](t.me/inicannn) || [𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/caritemangobrol) || **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/dreamingmoon)**"
+        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     )
     if ALIVE_LOGO:
         try:
