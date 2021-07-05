@@ -350,7 +350,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```Yowwadisap...  🐣 CAN UBOT 🐣  Has Been Active!!```")
+    await bot.send_message(BOTLOG_CHATID, "```Yowwadisap...  🐣 𝗖𝗔𝗡-𝗨𝗕𝗢𝗧 🐣  Has Been Active!!```")
     return
 
 with bot:
@@ -494,25 +494,25 @@ with bot:
                 result = builder.photo(
                     file=geezlogo,
                     link_preview=False,
-                    text=f" 🐣 CAN-UBOT 🐣 \n\n 🐣 **Owner : {DEFAULTUSER}**\n\n 🐣  **Bot Ver :** `5.0`\n 🐣  **𝗠odules :** `{len(plugins)}`\n\n 🐣  **Dev : CAN **".format(
+                    text=f" 🐣 𝗖𝗔𝗡-𝗨𝗕𝗢𝗧 🐣 \n\n 🐣 **Owner : {DEFAULTUSER}**\n\n 🐣  **Bot Ver :** `5.0`\n 🐣  **𝗠odules :** `{len(plugins)}`\n\n 🐣  **Dev : CAN **".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari 🐣 CAN-UBOT 🐣 ",
+                    "Bantuan Dari 🐣 𝗖𝗔𝗡-𝗨𝗕𝗢𝗧 🐣 ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " 🐣 CAN-UBOT 🐣 ",
-                    text="""**🐣 CAN-UBOT 🐣\n\n Anda Bisa Membuat CAN-UBOT Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
+                    " 🐣 𝗖𝗔𝗡-𝗨𝗕𝗢𝗧 🐣 ",
+                    text="""**🐣 𝗖𝗔𝗡-𝗨𝗕𝗢𝗧 🐣\n\n Anda Bisa Membuat CAN-UBOT Anda Sendiri Dengan Cara:** __TEKEN DIBAWAH INI!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "🐣 CAN-UBOT 🐣",
+                                "🐣 𝗖𝗔𝗡-𝗨𝗕𝗢𝗧 🐣",
                                 "https://github.com/maspion27/CAN-UBOT"),
                             custom.Button.url(
                                 "OWNER",
