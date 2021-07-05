@@ -20,13 +20,13 @@ from datetime import datetime
 import psutil
 
 from userbot import (
-    ALIVE_EMOJI, 
-    ALIVE_LOGO, 
-    ALIVE_NAME, 
-    BOT_VER, 
-    CMD_HELP, 
-    GEEZ_TEKS_KUSTOM, 
-    StartTime, 
+    ALIVE_EMOJI,
+    ALIVE_LOGO,
+    ALIVE_NAME,
+    BOT_VER,
+    CMD_HELP,
+    GEEZ_TEKS_KUSTOM,
+    StartTime,
     bot,
 )
 from userbot.events import register
