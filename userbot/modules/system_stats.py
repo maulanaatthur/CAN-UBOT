@@ -318,19 +318,19 @@ async def amireallyalive(alive):
         f"**       🐣𝗖𝗔𝗡 - 𝗨𝗕𝗢𝗧🐣** \n"
         f"**✠╼━━━━━━❖━━━━━━━✠** \n"
         f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
-        f"┣|• `🤴 Majikan  :`{DEFAULTUSER} \n"
-        f"┣|• `💳 Username :`@{user.username} \n"
-        f"┣|• `👺 Telethon :`Ver {version.__version__} \n"
-        f"┣|• `🐉 Python   :`Ver {python_version()} \n"
+        f"┣|• `🤺 Majikan  :`{DEFAULTUSER} \n"
+        f"┣|• `🃏 Username :`@{user.username} \n"
+        f"┣|• `🎠 Telethon :`Ver {version.__version__} \n"
+        f"┣|• `🐿 Python   :`Ver {python_version()} \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
         f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
         f"┣|• `Branch      :`CAN-UBOT \n"
         f"┣|• `Bot Ver     :`7.0 \n"
         f"┣|• `Modules     :`{len(modules)} Modules \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
-        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[𝐑𝐄𝐏𝐎](https://github.com/maspion27/CAN-UBOT) || [𝐆𝐑𝐎𝐔𝐏](https://t.me/caritemangobrol) || **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/dreamingmoon)**"
-        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
+        f"▰▰▰▰▰▰ \n"
+        f"[𝐑𝐄𝐏𝐎](https://github.com/maspion27/CAN-UBOT) || [𝐆𝐑𝐎𝐔𝐏](https://t.me/caritemangobrol) || [𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/dreamingmoon)"
+        f"▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
