@@ -315,7 +315,7 @@ async def amireallyalive(alive):
     await asyncio.sleep(3)
     output = (
         f"**✠╼━━━━━━❖━━━━━━━✠ ** \n"
-        f"**     🐣𝗗𝗔𝗣𝗔 - 𝗨𝗕𝗢𝗧🐣** \n"
+        f"**       🐣𝗖𝗔𝗡 - 𝗨𝗕𝗢𝗧🐣** \n"
         f"**✠╼━━━━━━❖━━━━━━━✠** \n"
         f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
         f"┣|• `🤴 Majikan  :`{DEFAULTUSER} \n"
@@ -329,7 +329,7 @@ async def amireallyalive(alive):
         f"┣|• `Modules     :`{len(modules)} Modules \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[[𝗢𝘄𝗻𝗲𝗿](t.me/inicannn) || [𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/caritemangobrol) || **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/dreamingmoon)**"
+        f"[𝐑𝐄𝐏𝐎](https://github.com/maspion27/CAN-UBOT) || [𝐆𝐑𝐎𝐔𝐏](https://t.me/caritemangobrol) || **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/dreamingmoon)**"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
