@@ -331,7 +331,6 @@ async def amireallyalive(alive):
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
         f"[[𝗢𝘄𝗻𝗲𝗿](t.me/inicannn) || [𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/caritemangobrol) || **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/dreamingmoon)**"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
-    )
     if ALIVE_LOGO:
         try:
             logo=ALIVE_LOGO
