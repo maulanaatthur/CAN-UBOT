@@ -18,7 +18,17 @@ import sys
 import time
 from datetime import datetime
 import psutil
-from userbot import ALIVE_EMOJI, ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, GEEZ_TEKS_KUSTOM, StartTime, bot
+
+from userbot import (
+    ALIVE_EMOJI, 
+    ALIVE_LOGO, 
+    ALIVE_NAME, 
+    BOT_VER, 
+    CMD_HELP, 
+    GEEZ_TEKS_KUSTOM, 
+    StartTime, 
+    bot,
+)
 from userbot.events import register
 
 
@@ -302,7 +312,7 @@ async def amireallyalive(alive):
     uptime = await get_readable_time((time.time() - StartTime))
     output = (
         f"**[CAN-UBOT](https://github.com/maspion27/CAN-UBOT) is Up and Running.**\n\n"
-        f"**{ALIVE_TEKS_CUSTOM}**\n\n"
+        f"**{GEEZ_TEKS_CUSTOM}**\n\n"
         f"{ALIVE_EMOJI} **Tuanku :** `{DEFAULTUSER}` \n"
         f"{ALIVE_EMOJI} **Modules :** `{len(modules)} Modules` \n"
         f"{ALIVE_EMOJI} **Bot Version :** `{BOT_VER}` \n"
