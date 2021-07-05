@@ -21,6 +21,7 @@ import psutil
 
 from userbot import (
     ALIVE_LOGO,
+    ALIVE_NAME,
     BOT_VER,
     CMD_HELP,
     GEEZ_TEKS_KUSTOM,
