@@ -22,7 +22,6 @@ import psutil
 from userbot import (
     ALIVE_EMOJI,
     ALIVE_LOGO,
-    ALIVE_NAME,
     BOT_VER,
     CMD_HELP,
     GEEZ_TEKS_KUSTOM,
@@ -175,7 +174,7 @@ async def bot_ver(event):
 
         await event.edit(
             "**⚜-** 🐣 𝗖𝗔𝗡-𝗨𝗕𝗢𝗧 🐣  Versi:** \n "
-            f"heads/Geez-Userbot-0-x634i7u1"
+            f"heads/CAN-UBOT-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -307,19 +306,20 @@ async def amireallyalive(alive):
 
 
 @register(outgoing=True, pattern=r"^\.(?:alive|on)\s?(.)?")
-async def amireallyalive(alive):
-    await bot.get_me()
+async def redis(alive):
+    user = await bot.get_me()
     uptime = await get_readable_time((time.time() - StartTime))
     output = (
-        f"**[CAN-UBOT](https://github.com/maspion27/CAN-UBOT) is Up and Running.**\n\n"
+        f"**[CAN-UBOT](https://github.com/maspion27/CAN-UBOT) Still alive.**\n\n"
         f"**{GEEZ_TEKS_CUSTOM}**\n\n"
-        f"{ALIVE_EMOJI} **Tuanku :** `{DEFAULTUSER}` \n"
-        f"{ALIVE_EMOJI} **Modules :** `{len(modules)} Modules` \n"
-        f"{ALIVE_EMOJI} **Bot Version :** `{BOT_VER}` \n"
-        f"{ALIVE_EMOJI} **Python Version :** `{python_version()}` \n"
-        f"{ALIVE_EMOJI} **Telethon Version :** `{version.__version__}` \n"
-        f"{ALIVE_EMOJI} **Bot Uptime :** `{uptime}` \n\n"
-        "    **[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/caritemangobrol)** | **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/dreamingmoon)** | **[𝗢𝘄𝗻𝗲𝗿](t.me/inicannn)**")
+        f"{ 🐣 } **Master :** `{DEFAULTUSER}` \n"
+        f"{ 🐣 } **Modules :** `{len(modules)} Modules` \n"
+        f"{ 🐣 } **Bot Version :** `{BOT_VER}` \n"
+        f"{ 🐣 } **Python Version :** `{python_version()}` \n"
+        f"{ 🐣 } **Telethon Version :** `{version.__version__}` \n"
+        f"{ 🐣 } **Bot Uptime :** `{uptime}` \n\n"
+        "    **[𝗦𝘂𝗽𝗽𝗼𝗿𝘁](https://t.me/caritemangobrol)** | **[𝗖𝗵𝗮𝗻𝗻𝗲𝗹](https://t.me/dreamingmoon)** | **[𝗢𝘄𝗻𝗲𝗿](t.me/inicannn)**"
+    )
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
